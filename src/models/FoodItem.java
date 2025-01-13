@@ -44,4 +44,13 @@ public class FoodItem {
         return String.format("%s - Calories: %.1f, Protein: %.1fg, Carbs: %.1fg, Fats: %.1fg, Category: %s",
                 name, calories, protein, carbs, fats, category);
     }
+
+    /**
+     * Calculates total calories based on macronutrients using the formula:
+     * (protein * 4) + (carbs * 4) + (fats * 9)
+     * @return calculated total calories
+     */
+    public double calculateTotalCalories() {
+        return (protein * 4) + (carbs * 4) + (fats * 9);
+    }
 } 

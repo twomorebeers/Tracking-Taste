@@ -1,0 +1,31 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx-swt.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.base.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/postgresql-42.7.4.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.media.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/hamcrest-core-1.3.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.media.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/jackson-annotations-2.18.0.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.web.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.fxml.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/slf4j-api-2.0.16.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.graphics.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/jackson-databind-2.18.0.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.controls.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.controls.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx-swt.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/jackson-core-2.18.0.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.graphics.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.fxml.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/junit-4.13.2.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.swing.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.swing.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/lib/javafx.base.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/HikariCP-5.1.0.jar",
+        "/home/bog/Desktop/projects & school/Tracking Taste/lib/javafx.web.jar"
+    ]
+}

@@ -8,6 +8,22 @@
     "category": "FRUITS"
   },
   {
+    "name": "Kiwi",
+    "calories": 42,
+    "protein": 0.8,
+    "carbs": 10.1,
+    "fats": 0.4,
+    "category": "FRUITS"
+  },
+  {
+    "name": "Goat Cheese",
+    "calories": 300,
+    "protein": 26,
+    "carbs": 5.1,
+    "fats": 40,
+    "category": "DAIRY"
+  },
+  {
     "name": "Chicken Breast",
     "calories": 165,
     "protein": 31,
