@@ -13,7 +13,7 @@ public class DatabaseConfig {
     private static final String DB_HOST = "localhost";
     private static final String DB_PORT = "5432";
     private static final String DB_NAME = "tracking_taste";
-    private static final String DB_USER = "postgres                         ";
+    private static final String DB_USER = "postgres";
     private static final String DB_PASSWORD = "aport2005"; // Replace with your actual password
     
     static {
@@ -51,10 +51,25 @@ public class DatabaseConfig {
         }
     }
     
-    // Test database connection
+    // // Test database connection
+    // public static boolean testConnection() {
+    //     try (Connection conn = getConnection()) {
+    //         return conn != null && !conn.isClosed();
+    //     } catch (SQLException e) {
+    //         e.printStackTrace();
+    //         return false;
+    //     }
+    // }
+    
     public static boolean testConnection() {
         try (Connection conn = getConnection()) {
-            return conn != null && !conn.isClosed();
+            if (conn != null) {
+                System.out.println("Connection successful!");
+                return true;
+            } else {
+                System.out.println("Failed to make connection!");
+                return false;
+            }
         } catch (SQLException e) {
             e.printStackTrace();
             return false;

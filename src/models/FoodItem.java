@@ -3,6 +3,7 @@ package models;
 import enums.FoodCategory;
 
 public class FoodItem {
+    private int id;
     private String name;
     private double calories;
     private double protein;
@@ -23,7 +24,18 @@ public class FoodItem {
         this.category = category;
     }
 
+    public FoodItem(int id, String name, int calories, double protein, double carbs, double fats, FoodCategory category) {
+        this.id = id;
+        this.name = name;
+        this.calories = calories;
+        this.protein = protein;
+        this.carbs = carbs;
+        this.fats = fats;
+        this.category = category;
+    }
+
     // Getters
+    public int getId() { return id; }
     public String getName() { return name; }
     public double getCalories() { return calories; }
     public double getProtein() { return protein; }
@@ -32,6 +44,7 @@ public class FoodItem {
     public FoodCategory getCategory() { return category; }
 
     // Setters
+    public void setId(int id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setCalories(double calories) { this.calories = calories; }
     public void setProtein(double protein) { this.protein = protein; }
