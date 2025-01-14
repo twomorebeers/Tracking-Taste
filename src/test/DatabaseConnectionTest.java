@@ -1,3 +1,5 @@
+package test;
+
 import database.DatabaseConfig;
 import database.dao.UserDAO;
 import database.dao.FoodDAO;

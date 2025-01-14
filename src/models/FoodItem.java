@@ -24,14 +24,13 @@ public class FoodItem {
         this.category = category;
     }
 
-    public FoodItem(int id, String name, int calories, double protein, double carbs, double fats, FoodCategory category) {
+    public FoodItem(int id, String name, double calories, double protein, double carbs, double fats, FoodCategory category) {
+        this(name, calories, protein, carbs, fats, category);
         this.id = id;
-        this.name = name;
-        this.calories = calories;
-        this.protein = protein;
-        this.carbs = carbs;
-        this.fats = fats;
-        this.category = category;
+    }
+
+    public FoodItem(int id, String name, int calories, double protein, double carbs, double fats, FoodCategory category) {
+        this(id, name, (double) calories, protein, carbs, fats, category);
     }
 
     // Getters
@@ -54,8 +53,7 @@ public class FoodItem {
 
     @Override
     public String toString() {
-        return String.format("%s - Calories: %.1f, Protein: %.1fg, Carbs: %.1fg, Fats: %.1fg, Category: %s",
-                name, calories, protein, carbs, fats, category);
+        return name + " (" + calories + " cal)";
     }
 
     /**
